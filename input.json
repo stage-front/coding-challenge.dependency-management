@@ -1,0 +1,47 @@
+[
+    {
+        "Name": "Component1",
+        "RequiredComponents": ["Component9","Compenent6","Component2"]
+    },
+    {
+        "Name": "Component2",
+        "RequiredComponents": []
+    },
+    {
+        "Name": "Component3",
+        "RequiredComponents": []
+    },
+    {
+        "Name": "Component4",
+        "RequiredComponents": ["Component2"]
+    },
+    {
+        "Name": "Component5",
+        "RequiredComponents": ["Component10", "Component4"]
+    },
+    {
+        "Name": "Component6",
+        "RequiredComponents": []
+    },
+    {
+        "Name": "Component7",
+        "RequiredComponents": ["Component11"]
+    },
+    {
+        "Name": "Component8",
+        "RequiredComponents": ["Component1", "Component5"],
+        "Entry": "true"
+    },
+    {
+        "Name": "Component9",
+        "RequiredComponents": ["Component11", "Component4"]
+    },
+    {
+        "Name": "Component10",
+        "RequiredComponents": ["Component2"]
+    },
+    {
+        "Name": "Component11",
+        "RequiredComponents": ["Component10", "Component6"]
+    }
+]
